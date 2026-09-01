@@ -457,7 +457,40 @@ async function processMode(cfg) {
       }
     }
     // per-rep fallback: an empty shape (or a shapeless feed) → the stop
-    // sequence itself becomes the HMM observation chain
+    // sequence itself becomes the HMM observation chain.
+    //
+    // A shape can also be present and STILL be useless. Some feeds ship a
+    // two- or three-point stub for a pattern that serves twenty stops; matched,
+    // it draws fifty metres and the line vanishes from the map while its number
+    // still sits in the panel. So a shape is rejected when it is far shorter
+    // than the poles it claims to connect — measured against the straight chain
+    // through the stops, which is itself a lower bound on the real run.
+    const chainM = (r) => {
+      const pts = r.stopSeq.map((s) => stopsById.get(s.stopId)).filter(Boolean);
+      let m = 0;
+      for (let i = 1; i < pts.length; i++) {
+        m += Math.hypot((pts[i].lat - pts[i - 1].lat) * 111320,
+          (pts[i].lon - pts[i - 1].lon) * 111320 * Math.cos(pts[i].lat * Math.PI / 180));
+      }
+      return m;
+    };
+    const shapeM_ = (pts) => {
+      let m = 0;
+      for (let i = 1; i < pts.length; i++) {
+        m += Math.hypot((pts[i][0] - pts[i - 1][0]) * 111320,
+          (pts[i][1] - pts[i - 1][1]) * 111320 * Math.cos(pts[i][0] * Math.PI / 180));
+      }
+      return m;
+    };
+    for (const r of feedReps) {
+      if (!r.shapeLatLon || r.shapeLatLon.length < 2) continue;
+      if ((r.stopSeq || []).length < 5) continue;
+      const sm = shapeM_(r.shapeLatLon), cm = chainM(r);
+      if (cm > 500 && sm < cm * 0.25) {
+        log(`${r.line}/${r.dir}: shape covers ${Math.round(sm)} m of a ${Math.round(cm)} m stop chain — matching on the stops instead`);
+        r.shapeLatLon = [];
+      }
+    }
     for (const r of feedReps) {
       if (r.shapeLatLon && r.shapeLatLon.length >= 2) continue;
       r.pseudo = true;
@@ -485,8 +518,32 @@ async function processMode(cfg) {
       const s0 = stopsById.get(r.stopSeq[0].stopId);
       const s1 = stopsById.get(r.stopSeq[r.stopSeq.length - 1].stopId);
       if (!s0 || !s1) continue;
+      // A CIRCULAR line ends where it began, so near(lastStop) lands on the
+      // shape point beside the FIRST one and the slice below throws the whole
+      // run away — Novi Sad's 11B, 23 poles and 91 trips a day, came out 50 m
+      // long. Where the terminal poles are the same place there is no tail to
+      // trim, so there is nothing to do.
+      const loopM = Math.hypot((s0.lat - s1.lat) * 111320,
+        (s0.lon - s1.lon) * 111320 * Math.cos(s0.lat * Math.PI / 180));
+      if (loopM < 300) continue;
       const i0 = near(s0), i1 = near(s1);
       if (i1 - i0 >= 2 && (i0 > 0 || i1 < r.shapeLatLon.length - 1)) {
+        // and a second guard for the near-loops the first one misses: a depot
+        // overshoot is a small overhang at an end, never the body of the line,
+        // so a trim that would drop more than a third of the run is refused.
+        const segLen = (a, b) => {
+          let m = 0;
+          for (let i = a + 1; i <= b; i++) {
+            m += Math.hypot((r.shapeLatLon[i][0] - r.shapeLatLon[i - 1][0]) * 111320,
+              (r.shapeLatLon[i][1] - r.shapeLatLon[i - 1][1]) * 111320 * Math.cos(r.shapeLatLon[i][0] * Math.PI / 180));
+          }
+          return m;
+        };
+        const full = segLen(0, r.shapeLatLon.length - 1);
+        if (full > 0 && segLen(i0, i1) < full * 0.66) {
+          log(`  shape trim ${r.line}/${r.dir}: REFUSED — ${i0}..${i1} would keep only ${Math.round(100 * segLen(i0, i1) / full)}% of the run`);
+          continue;
+        }
         if (i0 > 5 || i1 < r.shapeLatLon.length - 6) log(`  shape trim ${r.line}/${r.dir}: kept ${i0}..${i1} of ${r.shapeLatLon.length} points (depot tails dropped)`);
         r.shapeLatLon = r.shapeLatLon.slice(i0, i1 + 1);
       }
