@@ -42,6 +42,363 @@
   ],
   "lines": [
     {
+      "line": "342M-10",
+      "mode": "bus",
+      "color": "#149a3f",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Term. Penha",
+          "variants": 1,
+          "tripCount": 1,
+          "stops": 47,
+          "lengthKm": 16.24,
+          "stats": {
+            "observations": 808,
+            "matched": 808,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.382362493385488,
+            "roundaboutSegs": 31,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Term. São Mateus",
+          "variants": 1,
+          "tripCount": 1,
+          "stops": 47,
+          "lengthKm": 16.71,
+          "stats": {
+            "observations": 829,
+            "matched": 829,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.5066411867722898,
+            "roundaboutSegs": 44,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "408A-10",
+      "mode": "bus",
+      "color": "#149a3f",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Cardoso De Almeida",
+          "variants": 1,
+          "tripCount": 1,
+          "stops": 34,
+          "lengthKm": 11.34,
+          "stats": {
+            "observations": 568,
+            "matched": 568,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.5965884674263466,
+            "roundaboutSegs": 30,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Machado De Assis",
+          "variants": 1,
+          "tripCount": 1,
+          "stops": 30,
+          "lengthKm": 9.08,
+          "stats": {
+            "observations": 455,
+            "matched": 455,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.5135205839239744,
+            "roundaboutSegs": 17,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "2002-10",
+      "mode": "bus",
+      "color": "#149a3f",
+      "dirs": [
+        {
+          "dir": "Term. Bandeira",
+          "headsign": "Term. Bandeira",
+          "variants": 1,
+          "tripCount": 1,
+          "stops": 21,
+          "lengthKm": 9.02,
+          "stats": {
+            "observations": 449,
+            "matched": 449,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.2100787477038317,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "2100-10",
+      "mode": "bus",
+      "color": "#149a3f",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Pça. Da Sé",
+          "variants": 1,
+          "tripCount": 1,
+          "stops": 50,
+          "lengthKm": 15.23,
+          "stats": {
+            "observations": 763,
+            "matched": 763,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.8157379765465917,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Term. Vl. Carrão",
+          "variants": 1,
+          "tripCount": 1,
+          "stops": 48,
+          "lengthKm": 15.56,
+          "stats": {
+            "observations": 777,
+            "matched": 777,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.7733604457238231,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "2290-10",
+      "mode": "bus",
+      "color": "#149a3f",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Term. Pq. D. Pedro Ii",
+          "variants": 1,
+          "tripCount": 1,
+          "stops": 68,
+          "lengthKm": 25.98,
+          "stats": {
+            "observations": 1294,
+            "matched": 1294,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.744630310774809,
+            "roundaboutSegs": 31,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Term. São Mateus",
+          "variants": 1,
+          "tripCount": 1,
+          "stops": 54,
+          "lengthKm": 21.22,
+          "stats": {
+            "observations": 1058,
+            "matched": 1058,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.082269874586912,
+            "roundaboutSegs": 9,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "2290-21",
+      "mode": "bus",
+      "color": "#149a3f",
+      "dirs": [
+        {
+          "dir": "Term. Pq. D. Pedro Ii",
+          "headsign": "Term. Pq. D. Pedro Ii",
+          "variants": 1,
+          "tripCount": 1,
+          "stops": 54,
+          "lengthKm": 20.95,
+          "stats": {
+            "observations": 1043,
+            "matched": 1043,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.9825414059581439,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "3160-10",
+      "mode": "bus",
+      "color": "#149a3f",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Term. Pq. D. Pedro Ii",
+          "variants": 1,
+          "tripCount": 1,
+          "stops": 20,
+          "lengthKm": 8.76,
+          "stats": {
+            "observations": 436,
+            "matched": 436,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.0733624209882178,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Term. Vl. Prudente",
+          "variants": 1,
+          "tripCount": 1,
+          "stops": 17,
+          "lengthKm": 7.96,
+          "stats": {
+            "observations": 399,
+            "matched": 399,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.519277055298486,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "4112-10",
+      "mode": "bus",
+      "color": "#149a3f",
+      "dirs": [
+        {
+          "dir": "Pça. Da República",
+          "headsign": "Pça. Da República",
+          "variants": 1,
+          "tripCount": 1,
+          "stops": 41,
+          "lengthKm": 12.89,
+          "stats": {
+            "observations": 646,
+            "matched": 646,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.6439649555159653,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "4113-10",
+      "mode": "bus",
+      "color": "#149a3f",
+      "dirs": [
+        {
+          "dir": "Pça. Da República",
+          "headsign": "Pça. Da República",
+          "variants": 1,
+          "tripCount": 1,
+          "stops": 72,
+          "lengthKm": 20.93,
+          "stats": {
+            "observations": 1047,
+            "matched": 1047,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.6492601508563742,
+            "roundaboutSegs": 5,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
       "line": "6L01-10",
       "mode": "bus",
       "color": "#0059a9",
@@ -4151,55 +4508,6 @@
       ]
     },
     {
-      "line": "342M-10",
-      "mode": "bus",
-      "color": "#149a3f",
-      "dirs": [
-        {
-          "dir": "0",
-          "headsign": "Term. Penha",
-          "variants": 1,
-          "tripCount": 1,
-          "stops": 47,
-          "lengthKm": 16.24,
-          "stats": {
-            "observations": 808,
-            "matched": 808,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 2.382362493385488,
-            "roundaboutSegs": 31,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        },
-        {
-          "dir": "1",
-          "headsign": "Term. São Mateus",
-          "variants": 1,
-          "tripCount": 1,
-          "stops": 47,
-          "lengthKm": 16.71,
-          "stats": {
-            "observations": 829,
-            "matched": 829,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 2.5066411867722898,
-            "roundaboutSegs": 44,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        }
-      ]
-    },
-    {
       "line": "342N-10",
       "mode": "bus",
       "color": "#0059a9",
@@ -5656,55 +5964,6 @@
             "rawMeters": 0,
             "meanError": 1.0422319565407083,
             "roundaboutSegs": 13,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        }
-      ]
-    },
-    {
-      "line": "408A-10",
-      "mode": "bus",
-      "color": "#149a3f",
-      "dirs": [
-        {
-          "dir": "0",
-          "headsign": "Cardoso De Almeida",
-          "variants": 1,
-          "tripCount": 1,
-          "stops": 34,
-          "lengthKm": 11.34,
-          "stats": {
-            "observations": 568,
-            "matched": 568,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 0.5965884674263466,
-            "roundaboutSegs": 30,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        },
-        {
-          "dir": "1",
-          "headsign": "Machado De Assis",
-          "variants": 1,
-          "tripCount": 1,
-          "stops": 30,
-          "lengthKm": 9.08,
-          "stats": {
-            "observations": 455,
-            "matched": 455,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 0.5135205839239744,
-            "roundaboutSegs": 17,
             "extStart": 0,
             "extEnd": 0
           }
@@ -18676,34 +18935,6 @@
       ]
     },
     {
-      "line": "2002-10",
-      "mode": "bus",
-      "color": "#149a3f",
-      "dirs": [
-        {
-          "dir": "Term. Bandeira",
-          "headsign": "Term. Bandeira",
-          "variants": 1,
-          "tripCount": 1,
-          "stops": 21,
-          "lengthKm": 9.02,
-          "stats": {
-            "observations": 449,
-            "matched": 449,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 1.2100787477038317,
-            "roundaboutSegs": 0,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        }
-      ]
-    },
-    {
       "line": "2004-10",
       "mode": "bus",
       "color": "#0059a9",
@@ -20272,55 +20503,6 @@
       ]
     },
     {
-      "line": "2100-10",
-      "mode": "bus",
-      "color": "#149a3f",
-      "dirs": [
-        {
-          "dir": "0",
-          "headsign": "Pça. Da Sé",
-          "variants": 1,
-          "tripCount": 1,
-          "stops": 50,
-          "lengthKm": 15.23,
-          "stats": {
-            "observations": 763,
-            "matched": 763,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 0.8157379765465917,
-            "roundaboutSegs": 0,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        },
-        {
-          "dir": "1",
-          "headsign": "Term. Vl. Carrão",
-          "variants": 1,
-          "tripCount": 1,
-          "stops": 48,
-          "lengthKm": 15.56,
-          "stats": {
-            "observations": 777,
-            "matched": 777,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 0.7733604457238231,
-            "roundaboutSegs": 0,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        }
-      ]
-    },
-    {
       "line": "2101-10",
       "mode": "bus",
       "color": "#0059a9",
@@ -20832,83 +21014,6 @@
             "rawMeters": 0,
             "meanError": 1.0314808661520631,
             "roundaboutSegs": 7,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        }
-      ]
-    },
-    {
-      "line": "2290-10",
-      "mode": "bus",
-      "color": "#149a3f",
-      "dirs": [
-        {
-          "dir": "0",
-          "headsign": "Term. Pq. D. Pedro Ii",
-          "variants": 1,
-          "tripCount": 1,
-          "stops": 68,
-          "lengthKm": 25.98,
-          "stats": {
-            "observations": 1294,
-            "matched": 1294,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 1.744630310774809,
-            "roundaboutSegs": 31,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        },
-        {
-          "dir": "1",
-          "headsign": "Term. São Mateus",
-          "variants": 1,
-          "tripCount": 1,
-          "stops": 54,
-          "lengthKm": 21.22,
-          "stats": {
-            "observations": 1058,
-            "matched": 1058,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 2.082269874586912,
-            "roundaboutSegs": 9,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        }
-      ]
-    },
-    {
-      "line": "2290-21",
-      "mode": "bus",
-      "color": "#149a3f",
-      "dirs": [
-        {
-          "dir": "Term. Pq. D. Pedro Ii",
-          "headsign": "Term. Pq. D. Pedro Ii",
-          "variants": 1,
-          "tripCount": 1,
-          "stops": 54,
-          "lengthKm": 20.95,
-          "stats": {
-            "observations": 1043,
-            "matched": 1043,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 1.9825414059581439,
-            "roundaboutSegs": 0,
             "extStart": 0,
             "extEnd": 0
           }
@@ -25655,55 +25760,6 @@
       ]
     },
     {
-      "line": "3160-10",
-      "mode": "bus",
-      "color": "#149a3f",
-      "dirs": [
-        {
-          "dir": "0",
-          "headsign": "Term. Pq. D. Pedro Ii",
-          "variants": 1,
-          "tripCount": 1,
-          "stops": 20,
-          "lengthKm": 8.76,
-          "stats": {
-            "observations": 436,
-            "matched": 436,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 1.0733624209882178,
-            "roundaboutSegs": 0,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        },
-        {
-          "dir": "1",
-          "headsign": "Term. Vl. Prudente",
-          "variants": 1,
-          "tripCount": 1,
-          "stops": 17,
-          "lengthKm": 7.96,
-          "stats": {
-            "observations": 399,
-            "matched": 399,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 1.519277055298486,
-            "roundaboutSegs": 0,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        }
-      ]
-    },
-    {
       "line": "3161-10",
       "mode": "bus",
       "color": "#0059a9",
@@ -30254,62 +30310,6 @@
             "rawMeters": 0,
             "meanError": 0.658431396793898,
             "roundaboutSegs": 0,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        }
-      ]
-    },
-    {
-      "line": "4112-10",
-      "mode": "bus",
-      "color": "#149a3f",
-      "dirs": [
-        {
-          "dir": "Pça. Da República",
-          "headsign": "Pça. Da República",
-          "variants": 1,
-          "tripCount": 1,
-          "stops": 41,
-          "lengthKm": 12.89,
-          "stats": {
-            "observations": 646,
-            "matched": 646,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 0.6439649555159653,
-            "roundaboutSegs": 0,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        }
-      ]
-    },
-    {
-      "line": "4113-10",
-      "mode": "bus",
-      "color": "#149a3f",
-      "dirs": [
-        {
-          "dir": "Pça. Da República",
-          "headsign": "Pça. Da República",
-          "variants": 1,
-          "tripCount": 1,
-          "stops": 72,
-          "lengthKm": 20.93,
-          "stats": {
-            "observations": 1047,
-            "matched": 1047,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 0.6492601508563742,
-            "roundaboutSegs": 5,
             "extStart": 0,
             "extEnd": 0
           }
