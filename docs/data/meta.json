@@ -909,7 +909,7 @@
       "dirs": [
         {
           "dir": "Pq. Florestal",
-          "headsign": "Pq. Florestal   ",
+          "headsign": "Pq. Florestal",
           "variants": 1,
           "tripCount": 1,
           "stops": 47,
@@ -3373,7 +3373,7 @@
       "dirs": [
         {
           "dir": "0",
-          "headsign": "Metrô Belém     ",
+          "headsign": "Metrô Belém",
           "variants": 1,
           "tripCount": 1,
           "stops": 29,
@@ -4122,7 +4122,7 @@
       "dirs": [
         {
           "dir": "0",
-          "headsign": "Penha  ",
+          "headsign": "Penha",
           "variants": 1,
           "tripCount": 1,
           "stops": 50,
@@ -13908,7 +13908,7 @@
       "dirs": [
         {
           "dir": "Metrô - Trianon - Masp",
-          "headsign": "Metrô - Trianon - Masp ",
+          "headsign": "Metrô - Trianon - Masp",
           "variants": 1,
           "tripCount": 1,
           "stops": 86,
@@ -16092,7 +16092,7 @@
       "dirs": [
         {
           "dir": "0",
-          "headsign": "Conexão Vl. Iório ",
+          "headsign": "Conexão Vl. Iório",
           "variants": 1,
           "tripCount": 1,
           "stops": 51,
@@ -17947,7 +17947,7 @@
       "dirs": [
         {
           "dir": "Metrô Santana",
-          "headsign": "Metrô Santana ",
+          "headsign": "Metrô Santana",
           "variants": 1,
           "tripCount": 1,
           "stops": 53,
@@ -24478,7 +24478,7 @@
         },
         {
           "dir": "1",
-          "headsign": "Cohab José Bonifácio ",
+          "headsign": "Cohab José Bonifácio",
           "variants": 1,
           "tripCount": 1,
           "stops": 61,
@@ -26837,7 +26837,7 @@
       "dirs": [
         {
           "dir": "Jd. São João",
-          "headsign": "Jd. São João ",
+          "headsign": "Jd. São João",
           "variants": 1,
           "tripCount": 1,
           "stops": 30,
@@ -26865,7 +26865,7 @@
       "dirs": [
         {
           "dir": "Jd. São João",
-          "headsign": "Jd. São João ",
+          "headsign": "Jd. São João",
           "variants": 1,
           "tripCount": 1,
           "stops": 26,
@@ -27516,7 +27516,7 @@
       "dirs": [
         {
           "dir": "0",
-          "headsign": "Metrô Itaquera ",
+          "headsign": "Metrô Itaquera",
           "variants": 1,
           "tripCount": 1,
           "stops": 47,
@@ -40312,7 +40312,7 @@
         },
         {
           "dir": "1",
-          "headsign": "Pinheiros/vila Ida ",
+          "headsign": "Pinheiros/vila Ida",
           "variants": 1,
           "tripCount": 1,
           "stops": 34,
@@ -41180,7 +41180,7 @@
       "dirs": [
         {
           "dir": "0",
-          "headsign": "Jd. Gaivotas   ",
+          "headsign": "Jd. Gaivotas",
           "variants": 1,
           "tripCount": 1,
           "stops": 32,
@@ -42895,7 +42895,7 @@
       "dirs": [
         {
           "dir": "0",
-          "headsign": "Metrô Capão Redondo ",
+          "headsign": "Metrô Capão Redondo",
           "variants": 1,
           "tripCount": 1,
           "stops": 28,
@@ -48243,7 +48243,7 @@
         },
         {
           "dir": "1",
-          "headsign": "Cid. D'abril ",
+          "headsign": "Cid. D'abril",
           "variants": 1,
           "tripCount": 1,
           "stops": 60,
@@ -50147,7 +50147,7 @@
         },
         {
           "dir": "1",
-          "headsign": "Capela Da Lagoa ",
+          "headsign": "Capela Da Lagoa",
           "variants": 1,
           "tripCount": 1,
           "stops": 54,
